@@ -22,7 +22,7 @@
     <meta name="description" content>
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>about · Catsdidit</title>
+    <title>如何使用代理 · Catsdidit</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -203,12 +203,23 @@
 </head>
 
     
+        <body class="post-body">
+    
     
 <header class="header">
 
     <div class="read-progress"></div>
     <div class="header-sidebar-menu">&#xe775;</div>
     <!-- post页的toggle banner  -->
+    
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/" >Meow.</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">如何使用代理</a>
+            </div>
+    </div>
     
     <a class="home-link" href=/>Meow.</a>
 </header>
@@ -220,24 +231,74 @@
 
 
 
+
+height:50vh;
 ">
     
     <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/)"></div>
+    <div class="site-intro-img" style="background-image: url(/intro/post-bg2.jpeg)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
+            
+            如何使用代理
+            <!-- 404 -->
             
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
+            
+            <!-- 404 -->
+            
         </p>
         <!-- 文章页meta -->
+        
+            <div class="post-intros">
+                <!-- 文章页标签  -->
+                
+                    <div class= post-intro-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "教程">教程</a>
+    
+</div>
+                
+                
+                    <div class="post-intro-read">
+                        <span>字数统计: <span class="post-count word-count">724</span>阅读时长: <span class="post-count reading-time">2 min</span></span>
+                    </div>
+                
+                <div class="post-intro-meta">
+                    <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                    <span class="post-intro-time">2019/08/08</span>
+                    
+                    <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                        <span class="iconfont-archer">&#xe602;</span>
+                        <span id="busuanzi_value_page_pv"></span>
+                    </span>
+                    
+                    <span class="shareWrapper">
+                        <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                        <span class="shareText">Share</span>
+                        <ul class="shareList">
+                            <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                                <div class="share-qrcode"></div>
+                            </li>
+                            <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                            <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                            <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                            <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
         
     </div>
 </div>
@@ -340,13 +401,36 @@
         <div class="container container-unloaded">
             <main class="main post-page">
     <article class="article-entry">
-        
+        <h3 id="1-代理是什么？"><a href="#1-代理是什么？" class="headerlink" title="1.代理是什么？"></a>1.代理是什么？</h3><p>可能有对此接触很少的同学，所以这里大致的描述下，代理服务器是介于浏览器和Web服务器之间的一台服务器，有了它之后，浏览器不是直接到Web服务器去取回网页而是向代理服务器发出请求，Request信号会先送到代理服务器，由代理服务器来取回浏览器所需要的信息并传送给你的浏览器。<br><strong>你可以简单的理解为，代理服务器是一个传话的小兵。</strong><br><img src="/2019/08/08/Privacy的副本/%E5%9B%BE%E7%89%87%E5%90%8D%E5%AD%97.%E5%9B%BE%E7%89%87%E6%A0%BC%E5%BC%8F" alt><br>那么代理服务器能干什么呢？</p>
+<ol>
+<li>隐藏真实IP：上网者可以通过这种方法隐藏自己的IP，免受攻击。</li>
+<li>访问一些单位或团体内部资源，如某大学FTP(前提是该代理地址在该资源 的允许访问范围之内)，使用教育网内地址段免费代理服务器，就可以用于对教育网开放的各类FTP下载上传，以及各类资料查询共享等服务。 </li>
+<li>突破自身IP访问限制，访问国外站点。教育网、169网等网络用户可以通过代理访问国外网站。</li>
+<li>突破中国电信的IP封锁：中国电信用户有很多网站是被限制访问的，这种限制是人为的，不同Serve对地址的封锁是不同的。所以不能访问时可以换一个国 外的代理服务器试试。</li>
+<li>提高访问速度：通常代理服务器都设置一个较大的硬盘缓冲区，当有外界的信息通过时，同时也将其保存到缓冲区中，当其他用户再访问相同的信息时， 则直接由缓冲区中取出信息，传给用户，以提高访问速度。</li>
+</ol>
+<p>相信你点进这个教程多半也是有自己使用代理服务器的原因，所以这里就不多赘述。</p>
+<h3 id="2-我才不想管什么狗屁原理，我只想知道我该怎么用？"><a href="#2-我才不想管什么狗屁原理，我只想知道我该怎么用？" class="headerlink" title="2.我才不想管什么狗屁原理，我只想知道我该怎么用？"></a>2.我才不想管什么狗屁原理，我只想知道我该怎么用？</h3><p>好的，我理解。但是就像刚刚提到的，代理服务器作为一个传话的小兵，它并不是平白无故存在的，你需要这个小兵的使用权限，也就是账号密码。</p>
+<p><a href="https://github.com/233boy/v2ray/wiki/V2Ray一键安装脚本" title="标题" target="_blank" rel="noopener">点我点我</a></p>
+<ol>
+<li>用户在每个应用页面上花费的时间。</li>
+<li>App的崩溃信息。</li>
+</ol>
+<p>所有数据都是匿名的。我们不知道是谁产生了以上信息，所有数据都只会与AppCenter统计服务共享。</p>
+<h3 id="2-我们使用哪些第三方服务"><a href="#2-我们使用哪些第三方服务" class="headerlink" title="2.我们使用哪些第三方服务"></a>2.我们使用哪些第三方服务</h3><p>我们使用微软的AppCenter来分析匿名使用数据。</p>
+<h3 id="3-你如何删除你的数据？"><a href="#3-你如何删除你的数据？" class="headerlink" title="3.你如何删除你的数据？"></a>3.你如何删除你的数据？</h3><p>由于您的所有数据都保存在设备内，因此您可通过删除应用来删除您可能保留在设备内的缓存数据。</p>
+
     </article>
     <!-- license  -->
     
     <!-- paginator  -->
     <ul class="post-paginator">
         <li class="next">
+            
+                <div class="nextSlogan">Next Post</div>
+                <a href= "/2019/08/08/Privacy的副本 2/" title= "隐私使用条款">
+                    <div class="nextTitle">隐私使用条款</div>
+                </a>
             
         </li>
         <li class="previous">
@@ -445,6 +529,24 @@
     </div>
     <!-- toc -->
     
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-代理是什么？"><span class="toc-number">1.</span> <span class="toc-text">1.代理是什么？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-我才不想管什么狗屁原理，我只想知道我该怎么用？"><span class="toc-number">2.</span> <span class="toc-text">2.我才不想管什么狗屁原理，我只想知道我该怎么用？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-我们使用哪些第三方服务"><span class="toc-number">3.</span> <span class="toc-text">2.我们使用哪些第三方服务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-你如何删除你的数据？"><span class="toc-number">4.</span> <span class="toc-text">3.你如何删除你的数据？</span></a></li></ol>
+    </div>
+    
     <div class="back-top iconfont-archer">&#xe639;</div>
     <div class="sidebar sidebar-hide">
     <ul class="sidebar-tabs sidebar-tabs-active-0">
@@ -473,9 +575,18 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 2
+        Total : 3
         </div>
         <!-- search  -->
         
@@ -491,7 +602,12 @@
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">11/15</span><a class="archive-post-title" href= "/2019/11/15/ProxyTutorial/" >如何使用代理</a>
+            <span class="archive-post-date">08/08</span><a class="archive-post-title" href= "/2019/08/08/Privacy的副本/" >如何使用代理</a>
+        </li>
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">08/08</span><a class="archive-post-title" href= "/2019/08/08/Privacy的副本 2/" >隐私使用条款</a>
         </li>
     
     
@@ -573,6 +689,8 @@ jsonContent:
     
     </div>
     <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script>    
      
     </body>
 </html>
